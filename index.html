@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html ng-app="ResultApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Bangalore University Result Formate</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+  <body id="bg">
+  <div class="container">
+    <div class="row">
+    <h1 id="h1">Bangalore University Result Formate</h1>
+    <div ng-controller="ResultController as get">
+    <h2 ng-if="!get.name">CHECK RESULT FROM HERE:</h2>
+
+
+    <input type="text" ng-model="get.search" value="search" maxlength="10"
+     ng-if="!get.name">
+
+
+    <button ng-click="get.getResult(get.search)" ng-if="!get.name"
+    class="btn btn-primary">GET RESULT!</button>
+    <h2 id="#h2" ng-if="!get.name">Enter the Register number!</h2>
+    <div  id="head-nav" ng-if="get.name">
+      NAME: {{ get.name }}</br>
+      REGISTER NUMBER: {{ get.regno }}
+    </div>
+      <table border="0">
+      <caption id="CAP" ng-if="get.name">Results</caption>
+
+        <tr ng-if="get.name">
+          <th>SI.No.</td>
+          <th>SUBJECT NAME</th>
+          <th>SUBJECT CODE</th>
+          <th>SEMESTER</th>
+          <th>COMPONENT</th>
+          <th>MARKS</th>
+        </tr>
+
+        <tr ng-repeat="sub in get.result">
+          <td>{{$index}}</td>
+          <td>{{sub.sname}}</td>
+          <td>{{sub.scode}}</td>
+          <td>{{sub.sem}}</td>
+          <td>{{sub.corp}}</td>
+          <td>{{sub.marks}}</td>
+        </tr>
+
+        <!-- <tr>
+          <td colspan="5">TOTAL MARKS </td>
+          <td>{{ get.total }}</td>
+        </tr>
+        <tr>
+          <td colspan="5">MARKS IN PERCENTAGE</td>
+          <td>{{ get.prc }}%</td>
+        </tr>
+        <tr>
+          <td colspan="5">YOUR GRADE IS</td>
+          <td>{{ get.grade }}</td>
+        </tr> -->
+      </table>
+
+      <h2>Searched serults status: {{ get.message }}</h2>
+
+    </div>
+  </div>
+</div>
+  <!-- Module  -->
+  <script src="lib/angular.min.js"></script>
+
+  <!-- controllers -->
+  <script src="src/result.js"></script>
+  <script src="src/result.controller.js"></script>
+  </body>
+</html>
