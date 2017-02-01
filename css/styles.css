@@ -30,7 +30,7 @@ table {
   margin: 5px;
 }
 table, tr,th , td {
-  /*border: 1px ridge 	#e6e6e6;*/
+  border: 1px ridge 	rgb(169, 169, 169);
   border-collapse: collapse;
   padding: 10px;
   font-size: 18px;
@@ -40,7 +40,7 @@ table, tr,th , td {
 }
 
  tr:nth-child(odd) > th {
-   border: 1px ridge 	#e6e6e6;
+   border: 1px ridge 	rgb(169, 169, 169);
    background-color: #ff5233;
    padding: 6px;
  }
@@ -57,7 +57,7 @@ tr, th ,td{
   margin: auto;
 }
 
-tr:nth-child(20), tr:nth-child(21), tr:nth-child(22) {
+tr:nth-child(19), tr:nth-child(20), tr:nth-child(21) {
   /*background-color: #FF6347;*/
   color: black;
   font-weight: bold;
@@ -93,4 +93,11 @@ button {
   margin-top: 5px;
   font-family: monospace;
   font-style:italic;
+}
+
+#container {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
 }

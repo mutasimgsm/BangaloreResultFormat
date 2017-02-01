@@ -1,8 +1,8 @@
 
   {"main":[
     [
-    {"name": "MUTASIM YOUNIS ADAM MOHAMMED", "regno": "152RSB7078", "marks":"0"},
-    {"sname": "ARAB2.1: ARABIC","scode": "ARAC2S", "sem": "2", "corp": "INTERNAL ASSESSMENT", "marks": "28"},
+    {"name": "MUTASIM YOUNIS ADAM MOHAMMED", "regno": "152RSB7078",
+    "sname": "ARAB2.1: ARABIC","scode": "ARAC2S", "sem": "2", "corp": "INTERNAL ASSESSMENT", "marks": "28"},
     {"sname": "ARAB2.1: ARABIC","scode": "ARAC2S", "sem": "2", "corp": "THEORY-I", "marks": "48"},
     {"sname": "CODE2.1: SO-CURRICULAR AND EXTENTION ACTIVITIES - 2", "scode": "CCEC2S", "sem": "2", "corp": "ENTERNAL ASSESSTENT", "marks": "44"},
     {"sname": "ENG2.1: ENGLISH","scode": "ENGC2S", "sem": "2", "corp": "ENTERNAL ESSESSTENT", "marks": "29"},
@@ -21,9 +21,9 @@
     {"sname": "CAP2.4: DBMS LAB", "scode": "SB73P4", "sem": "2", "corp": "ENTERNAL ASSESSTENT", "marks": "14"}
   ],
   [
-  {"name": "MAWANSE CANDIDE", "regno": "152RSB7079", "marks":"0"},
-  {"sname": "FRANCH2.1: FRACHE","scode": "ARAC2S", "sem": "2", "corp": "INTERNAL ASSESSMENT", "marks": "28"},
-  {"sname": "FRANCH2.1: FRACHE","scode": "ARAC2S", "sem": "2", "corp": "THEORY-I", "marks": "48"},
+  {"name": "MAWANSE CANDIDE", "regno": "152RSB7079",
+   "sname": "FRANCH2.1: FRACHE","scode": "FRAC2S", "sem": "2", "corp": "INTERNAL ASSESSMENT", "marks": "28"},
+  {"sname": "FRANCH2.1: FRACHE","scode": "FRAC2S", "sem": "2", "corp": "THEORY-I", "marks": "48"},
   {"sname": "CODE2.1: SO-CURRICULAR AND EXTENTION ACTIVITIES - 2", "scode": "CCEC2S", "sem": "2", "corp": "ENTERNAL ASSESSTENT", "marks": "44"},
   {"sname": "ENG2.1: ENGLISH","scode": "ENGC2S", "sem": "2", "corp": "ENTERNAL ESSESSTENT", "marks": "29"},
   {"sname": "ENG2.1: ENGLISH","scode": "ENGC2S", "sem": "2", "corp": "THEORY-I", "marks": "34"},
@@ -41,8 +41,8 @@
   {"sname": "CAP2.4: DBMS LAB", "scode": "SB73P4", "sem": "2", "corp": "ENTERNAL ASSESSTENT", "marks": "14"}
 ],
 [
-{"name": "MOHAND SIRALKHATIM", "regno": "152RSB7064"},
-{"sname": "FRANCH2.1: FRACHE","scode": "ARAC2S", "sem": "2", "corp": "INTERNAL ASSESSMENT", "marks": "28"},
+{"name": "MOHAND SIRALKHATIM", "regno": "152RSB7064",
+"sname": "FRANCH2.1: FRACHE","scode": "ARAC2S", "sem": "2", "corp": "INTERNAL ASSESSMENT", "marks": "28"},
 {"sname": "FRANCH2.1: FRACHE","scode": "ARAC2S", "sem": "2", "corp": "THEORY-I", "marks": "48"},
 {"sname": "CODE2.1: SO-CURRICULAR AND EXTENTION ACTIVITIES - 2", "scode": "CCEC2S", "sem": "2", "corp": "ENTERNAL ASSESSTENT", "marks": "44"},
 {"sname": "ENG2.1: ENGLISH","scode": "ENGC2S", "sem": "2", "corp": "ENTERNAL ESSESSTENT", "marks": "29"},
@@ -61,9 +61,49 @@
 {"sname": "CAP2.4: DBMS LAB", "scode": "SB73P4", "sem": "2", "corp": "ENTERNAL ASSESSTENT", "marks": "14"}
 ],
 [
-{"name": "KHALID OSAMA KHALID", "regno": "152RSB7042", "marks":"0"},
-{"sname": "FRANCH2.1: FRACHE","scode": "ARAC2S", "sem": "2", "corp": "INTERNAL ASSESSMENT", "marks": "28"},
+{"name": "KHALID OSAMA KHALID", "regno": "152RSB7042",
+"sname": "FRANCH2.1: FRACHE","scode": "ARAC2S", "sem": "2", "corp": "INTERNAL ASSESSMENT", "marks": "28"},
 {"sname": "FRANCH2.1: FRACHE","scode": "ARAC2S", "sem": "2", "corp": "THEORY-I", "marks": "48"},
+{"sname": "CODE2.1: SO-CURRICULAR AND EXTENTION ACTIVITIES - 2", "scode": "CCEC2S", "sem": "2", "corp": "ENTERNAL ASSESSTENT", "marks": "44"},
+{"sname": "ENG2.1: ENGLISH","scode": "ENGC2S", "sem": "2", "corp": "ENTERNAL ESSESSTENT", "marks": "29"},
+{"sname": "ENG2.1: ENGLISH","scode": "ENGC2S", "sem": "2", "corp": "THEORY-I", "marks": "10"},
+{"sname": "ICH2.1: INDIAN CONSTITUTION RIGHT","scode": "FSAC1S", "sem": "2", "corp": "INTERN ASSESSTENT", "marks": "28"},
+{"sname": "ICH2.1: INDIAN CONSTITUTION RIGHT","scode": "FSAC1S", "sem": "2", "corp": "THEORY-I", "marks": "20"},
+{"sname": "CAP2.1: DATA STRUCTURES", "scode": "SB7106", "sem": "2", "corp": "THEORY-1", "marks": "58"},
+{"sname": "CAP2.1: DATA STRUCTURES", "scode": "SB7106", "sem": "2", "corp": "ENTERNAL ASSESSTENT", "marks": "27"},
+{"sname": "CAP2.2: DATABASE MANAGEMENT SYSTEM", "scode": "SB7107", "sem": "2", "corp": "THEORY-1", "marks": "42"},
+{"sname": "SCP2.2: DATABASE MANAGEMENT SYSTEM", "scode": "SB7107", "sem": "2", "corp": "ENTERNAL ASSESSTENT", "marks": "30"},
+{"sname": "CAP2.3: NUMERICAL AND STATISCAL THEORY", "scode": "SB7108", "sem": "2", "corp": "THEORY-1", "marks": "15"},
+{"sname": "CAP2.3: NUMERICAL AND STATISCAL THEORY", "scode": "SB7108", "sem": 2, "corp": "ENTERNAL ASSESSTENT", "marks": "42"},
+{"sname": "CAP2.3: DATA STRUCTURES LAB", "scode": "SB73P3", "sem": "2", "corp": "ENTERNAL ASSESSTENT", "marks": "13"},
+{"sname": "CAP2.3: DATA STRUCTURES LAB", "scode": "SB73P3", "sem": "2", "corp": "PRACTICAL", "marks": "24"},
+{"sname": "CAP2.4: DBMS LAB", "scode": "SB73P4", "sem": "2", "corp": "PRACTICAL", "marks": "22"},
+{"sname": "CAP2.4: DBMS LAB", "scode": "SB73P4", "sem": "2", "corp": "ENTERNAL ASSESSTENT", "marks": "14"}
+],
+[
+{"name": "ABDUALLAHI MUSTAPHA", "regno": "152RSB7004",
+"sname": "ADDITION ENG2.1","scode": "ADDEC2S", "sem": "2", "corp": "INTERNAL ASSESSMENT", "marks": "28"},
+{"sname": "ADDITION ENG2.1","scode": "ADDEC2S", "sem": "2", "corp": "THEORY-I", "marks": "48"},
+{"sname": "CODE2.1: SO-CURRICULAR AND EXTENTION ACTIVITIES - 2", "scode": "CCEC2S", "sem": "2", "corp": "ENTERNAL ASSESSTENT", "marks": "44"},
+{"sname": "ENG2.1: ENGLISH","scode": "ENGC2S", "sem": "2", "corp": "ENTERNAL ESSESSTENT", "marks": "29"},
+{"sname": "ENG2.1: ENGLISH","scode": "ENGC2S", "sem": "2", "corp": "THEORY-I", "marks": "10"},
+{"sname": "ICH2.1: INDIAN CONSTITUTION RIGHT","scode": "FSAC1S", "sem": "2", "corp": "INTERN ASSESSTENT", "marks": "28"},
+{"sname": "ICH2.1: INDIAN CONSTITUTION RIGHT","scode": "FSAC1S", "sem": "2", "corp": "THEORY-I", "marks": "20"},
+{"sname": "CAP2.1: DATA STRUCTURES", "scode": "SB7106", "sem": "2", "corp": "THEORY-1", "marks": "58"},
+{"sname": "CAP2.1: DATA STRUCTURES", "scode": "SB7106", "sem": "2", "corp": "ENTERNAL ASSESSTENT", "marks": "27"},
+{"sname": "CAP2.2: DATABASE MANAGEMENT SYSTEM", "scode": "SB7107", "sem": "2", "corp": "THEORY-1", "marks": "42"},
+{"sname": "SCP2.2: DATABASE MANAGEMENT SYSTEM", "scode": "SB7107", "sem": "2", "corp": "ENTERNAL ASSESSTENT", "marks": "30"},
+{"sname": "CAP2.3: NUMERICAL AND STATISCAL THEORY", "scode": "SB7108", "sem": "2", "corp": "THEORY-1", "marks": "15"},
+{"sname": "CAP2.3: NUMERICAL AND STATISCAL THEORY", "scode": "SB7108", "sem": 2, "corp": "ENTERNAL ASSESSTENT", "marks": "42"},
+{"sname": "CAP2.3: DATA STRUCTURES LAB", "scode": "SB73P3", "sem": "2", "corp": "ENTERNAL ASSESSTENT", "marks": "13"},
+{"sname": "CAP2.3: DATA STRUCTURES LAB", "scode": "SB73P3", "sem": "2", "corp": "PRACTICAL", "marks": "24"},
+{"sname": "CAP2.4: DBMS LAB", "scode": "SB73P4", "sem": "2", "corp": "PRACTICAL", "marks": "22"},
+{"sname": "CAP2.4: DBMS LAB", "scode": "SB73P4", "sem": "2", "corp": "ENTERNAL ASSESSTENT", "marks": "14"}
+],
+[
+{"name": "ABDUELARAHIM RIZGALLAH", "regno": "152RSB7001",
+"sname": "ARAB2.1: ARABIC","scode": "ARAC2S", "sem": "2", "corp": "INTERNAL ASSESSMENT", "marks": "28"},
+{"sname": "ARAB2.1: ARABIC","scode": "ARAC2S", "sem": "2", "corp": "THEORY-I", "marks": "48"},
 {"sname": "CODE2.1: SO-CURRICULAR AND EXTENTION ACTIVITIES - 2", "scode": "CCEC2S", "sem": "2", "corp": "ENTERNAL ASSESSTENT", "marks": "44"},
 {"sname": "ENG2.1: ENGLISH","scode": "ENGC2S", "sem": "2", "corp": "ENTERNAL ESSESSTENT", "marks": "29"},
 {"sname": "ENG2.1: ENGLISH","scode": "ENGC2S", "sem": "2", "corp": "THEORY-I", "marks": "10"},
